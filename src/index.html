@@ -29,7 +29,7 @@
         </div>
         <div layout="row" layout-align="start center" layout-padding layout-margin>
         </div>
-        <div layout="row" layout-align="start center" >
+        <div layout="row" layout-align="start center">
             <div flex></div>
             <md-input-container style="padding-left: 16px;">
                 <label style="padding-left: 16px;">Highlight</label>
@@ -38,20 +38,23 @@
                     <md-option ng-value="'speed'" ng-selected="d.highlight == 'speed'">speed variation</md-option>
                 </md-select>
             </md-input-container>
-            <div flex></div> 
-            <div> 
-            <div class="label">{{d.highlight}} &nbsp;scale</div>         
-            <div layout="row" layout-align="start center" layout-padding class = "colorScale">
-                <div id="range-min md-subhead">{{d[d.highlight].range[0]}}&nbsp;{{d[d.highlight].unit}}</div>
-                <div flex class="colorRange"></div>
-                <div id="range-max md-subhead">{{d[d.highlight].range[1]}}&nbsp;{{d[d.highlight].unit}}</div>
-            </div>
-            </div> 
-            <div flex></div>            
-        </div>
-        <div layout="row" layout-align="start center" >
             <div flex></div>
-            <div id="map" style="width:500px;height:400px;"></div>
+            <div>
+                <div class="label">{{d.highlight}} &nbsp;scale</div>
+                <div layout="row" layout-align="start center" layout-padding class="colorScale">
+                    <div id="range-min md-subhead">{{d[d.highlight].range[0]}}&nbsp;{{d[d.highlight].unit}}</div>
+                    <div flex class="colorRange"></div>
+                    <div id="range-max md-subhead">{{d[d.highlight].range[1]}}&nbsp;{{d[d.highlight].unit}}</div>
+                </div>
+            </div>
+            <div flex></div>
+        </div>
+        <div layout="row" layout-align="start center">
+            <div flex></div>
+            <div>
+                <div id="map" style="width:500px;height:400px;"></div>
+                <div class="info">Zoom in or Click on the marker for more information.</div>
+            </div>
             <div flex></div>
         </div>
     </div>
