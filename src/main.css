@@ -1,0 +1,18 @@
+.md-subhead {
+    color: gray !important;
+    font-size: 14px;
+}
+.colorRange {
+	width:250px;
+	height:20px;
+	background: -webkit-linear-gradient(to right, #ce0404 , #f1f10a, #009200); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(to right, #ce0404 , #f1f10a, #009200); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(to right, #ce0404 , #f1f10a, #009200); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ce0404 , #f1f10a, #009200); /* Standard syntax */
+
+}
+.label {
+	color: rgba(0,0,0,0.54);
+    font-size: 12px;
+    text-transform: capitalize;
+}
