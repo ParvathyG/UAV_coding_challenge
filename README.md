@@ -16,4 +16,9 @@ $ bower update
 ```sh
 $ grunt
 ```
-Serve the dist folder.
+Serve the dist folder. Eg:
+
+```sh
+$ cd dist/
+$ python -m SimpleHTTPServer
+```
